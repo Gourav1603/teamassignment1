@@ -13,20 +13,20 @@ package teamassignment1;
  * @author c0655617
  */
 class Purchase {
-    private String productID;
+    private String productId;
     private int quantity;
 
     public Purchase(String productId, int quantity) {
-        this.productID = productId;
+        this.productId = productId;
         this.quantity = quantity;
     }
     
     public String getProductId() {
-        return productID;
+        return productId;
     }
 
     public void setProductId(String productId) {
-        this.productID = productId;
+        this.productId = productId;
     }
 
     public int getQuantity() {
