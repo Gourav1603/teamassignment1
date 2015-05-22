@@ -5,14 +5,11 @@
  */
 
 package teamassignment1;
-
-/**
- *
-<<<<<<< HEAD
- * @author c0654032
+/*=======
+ * @author c0655617
  */
-public class Purchase {
-    private String productId;
+class Purchase {
+  private String productId;
     private int quantity;
 
     public Purchase(String productId, int quantity) {
