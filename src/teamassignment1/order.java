@@ -18,14 +18,14 @@ import java.util.List;
  * @author c0655617
  */
 public class order {
-    private String customerID;
+    private String customerId;
     private String customerName;
     private Date timeReceived;
     private Date timeProcessed;
     private Date timeFulfilled;
      private List<Purchase> listOfPurchases = new ArrayList<>();
     private String notes;
-    private final String customerId;
+   
 
     
         public order(String customerId, String customerName) {
@@ -42,7 +42,7 @@ public class order {
     }
 
     public void setCustomerId(String customerId) {
-        this.customerID = customerId;
+        this.customerId = customerId;
     }
 
     public String getCustomerName() {
