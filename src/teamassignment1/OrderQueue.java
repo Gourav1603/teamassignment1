@@ -16,7 +16,6 @@ import java.util.Queue;
  */
 public class OrderQueue {
     Queue<Order> orderQueue = new ArrayDeque<>();
-   
     public void add(Order order) {
         orderQueue.add(order);
         order.setTimeReceived(new Date());
