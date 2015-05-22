@@ -49,5 +49,9 @@ public class Order {
     public void setNotes(String notes) {
         this.notes = notes;
     }    
+
+    void setTimeReceived(Date date) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
 
