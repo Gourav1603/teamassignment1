@@ -34,9 +34,9 @@ public class Order {
     public void setCustomerId(String customerId) {
         this.customerId = customerId;
     }
-
     public String getCustomerName() {
         return customerName;
+
     }
 
     public void setCustomerName(String customerName) {
@@ -48,9 +48,5 @@ public class Order {
 
     public void setNotes(String notes) {
         this.notes = notes;
-    }
-    
-    
+    }    
 }
-    
-
